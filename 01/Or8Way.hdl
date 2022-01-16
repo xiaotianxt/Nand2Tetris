@@ -17,18 +17,9 @@ CHIP Or8Way {
     Or(a=in[2], b=in[3], out=o01);
     Or(a=in[4], b=in[5], out=o02);
     Or(a=in[6], b=in[7], out=o03);
-    Or(a=in[8], b=in[9], out=o04);
-    Or(a=in[10], b=in[11], out=o05);
-    Or(a=in[12], b=in[13], out=o06);
-    Or(a=in[14], b=in[15], out=o07);
     
     Or(a=o00, b=o01, out=o10);
     Or(a=o02, b=o03, out=o11);
-    Or(a=o04, b=o05, out=o12);
-    Or(a=o06, b=o07, out=o13);
     
-    Or(a=o10, b=o11, out=o20);
-    Or(a=o12, b=o13, out=o21);
-    
-    Or(a=o20, b=o21, out=out);
+    Or(a=o10, b=o11, out=out);
 }

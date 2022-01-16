@@ -4,7 +4,7 @@ Implementation of a complete computer from Nand gates on up as described in the 
 
 ## Marking Progress
 
-| Project                    | Status     |
+| Project                    | Status |
 | -------------------------- | ---------- |
-| Project 01 – Boolean Gates | Working on |
+| Project 01 – Boolean Gates | Done |
 
