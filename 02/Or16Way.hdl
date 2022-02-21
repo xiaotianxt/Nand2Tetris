@@ -1,0 +1,18 @@
+// This file is made by myself to maintain the ALU functionality.
+// File name: projects/02/Or16Way.hdl
+
+/**
+ * 16-Way or logic unit
+ * out = in[0] Or in[1] Or ... Or in[15]
+ */
+
+CHIP Or16Way {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+   // Put you code here:
+    Or8Way(in=in[0..7], out=outa);
+    Or8Way(in=in[8..15], out=outb);
+    Or(a=outa, b=outb, out=out);
+}

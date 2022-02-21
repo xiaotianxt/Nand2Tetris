@@ -1,0 +1,15 @@
+// This file is made by myself to maintain the ALU functionality.
+// File name: projects/02/IsNeg16.hdl
+
+/**
+ * 16-Way or logic unit
+ * out = in[15] ? true : false
+ */
+
+CHIP IsNeg16 {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    And(a=in[15], b=in[15], out=out);
+}
